@@ -159,22 +159,3 @@ Contains:
 
 ---
 
-# DAX Measures Used
-
-## Success Rate
-
-```DAX
-Success Rate =
-DIVIDE(
-CALCULATE(
-COUNT(upi_analysis_excel[transaction_id]),
-upi_analysis_excel[transaction_status]="SUCCESS"
-),
-COUNT(upi_analysis_excel[transaction_id])
-)
-Fraud Rate
-Fraud Rate =
-DIVIDE(
-SUM(upi_analysis_excel[fraud_flag]),
-COUNT(upi_analysis_excel[transaction_id])
-)
