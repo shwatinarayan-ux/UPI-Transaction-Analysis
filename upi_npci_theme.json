@@ -1,0 +1,36 @@
+{
+  "name": "UPI NPCI Theme",
+  "dataColors": [
+    "#3B1F8C",
+    "#E91E8C",
+    "#5C6BC0",
+    "#00897B",
+    "#E53935",
+    "#7986CB",
+    "#F06292",
+    "#4DB6AC"
+  ],
+  "background": "#F0F4FF",
+  "foreground": "#1A1A2E",
+  "tableAccent": "#3B1F8C",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "fontFamily": [{ "value": "Segoe UI" }],
+        "fontSize": [{ "value": 12 }],
+        "color": [{ "value": "#1A1A2E" }]
+      }
+    },
+    "card": {
+      "*": {
+        "backgroundColor": [{ "value": "#F0F4FF" }],
+        "border": [{ "value": "#3B1F8C" }]
+      }
+    },
+    "columnChart": {
+      "*": {
+        "dataColor": [{ "value": "#3B1F8C" }]
+      }
+    }
+  }
+}
